@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>begin_time</key>
+		<string>2016-04-24 04:25:00</string>
+		<key>class_name</key>
+		<string>祥云17期</string>
+	</dict>
+	<dict>
+		<key>begin_time</key>
+		<string>2016-04-26 03:25:00</string>
+		<key>class_name</key>
+		<string>祥云17期</string>
+	</dict>
+	<dict>
+		<key>begin_time</key>
+		<string>2016-04-16 04:25:00</string>
+		<key>class_name</key>
+		<string>祥云17期</string>
+	</dict>
+</array>
+</plist>
