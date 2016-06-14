@@ -36,6 +36,13 @@
     [self.navigationBar pushNavigationItem:navigationItem animated:NO];
     //将编辑按钮设置为导航栏右边的按钮
     [navigationItem setRightBarButtonItem:self.editButtonItem];
+    
+    NSLog(@"self.editButtonItem.action - %@",NSStringFromSelector(self.editButtonItem.action));
+    
+    NSLog(@"self.editButtonItem.target - %@",self.editButtonItem.target);
+//    self.editButtonItem.target;
+    
+    
     //隐藏左按钮
      navigationItem.hidesBackButton = YES;
     //------------------------------------------------------------//
@@ -47,6 +54,7 @@
     self.dailyDetailView.hidden = YES;
     [self.view addSubview:self.dailyDetailView ];
 }
+
 -(NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return [self.dailyList count]+1;
 }
@@ -115,8 +123,8 @@
 //视图设置编辑状态时，调用该方法
 - (void)setEditing:(BOOL)editing animated:(BOOL)animated{
     [super setEditing:editing animated:animated];
+    [self.dailysTv setEditing:editing animated:animated];
     NSLog(@"set editing %d",editing);
-    
 }
 //设置单元格编辑图标
 - (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath{
