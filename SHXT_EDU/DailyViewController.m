@@ -116,6 +116,7 @@
 - (void)setEditing:(BOOL)editing animated:(BOOL)animated{
     [super setEditing:editing animated:animated];
     NSLog(@"set editing %d",editing);
+    
 }
 //设置单元格编辑图标
 - (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath{
