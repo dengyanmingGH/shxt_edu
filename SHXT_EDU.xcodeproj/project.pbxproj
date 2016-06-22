@@ -90,7 +90,6 @@
 		DE2BB8111CCC981B001DB0E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2BB80F1CCC981B001DB0E4 /* LaunchScreen.storyboard */; };
 		DE32904C1CDB337B008B3730 /* classes.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE32904B1CDB337B008B3730 /* classes.plist */; };
 		DE4468A61CCF53CC0030FA9F /* DailyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4468A51CCF53CC0030FA9F /* DailyViewController.m */; };
-		DE4468A81CCF5A360030FA9F /* dailys.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE4468A71CCF5A360030FA9F /* dailys.plist */; };
 		DE77DE271D0EA621007307B5 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE77DDFD1D0EA621007307B5 /* MJRefreshAutoFooter.m */; };
 		DE77DE281D0EA621007307B5 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE77DDFF1D0EA621007307B5 /* MJRefreshBackFooter.m */; };
 		DE77DE291D0EA621007307B5 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = DE77DE011D0EA621007307B5 /* MJRefreshComponent.m */; };
@@ -111,6 +110,7 @@
 		DE77DE381D0EA621007307B5 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = DE77DE241D0EA621007307B5 /* UIScrollView+MJRefresh.m */; };
 		DE77DE391D0EA621007307B5 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DE77DE261D0EA621007307B5 /* UIView+MJExtension.m */; };
 		DE92F0621CE449E5002D1974 /* StudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE92F0611CE449E5002D1974 /* StudentViewController.m */; };
+		DE9A16111D1A67B6004CC274 /* README in Resources */ = {isa = PBXBuildFile; fileRef = DE9A16101D1A67B6004CC274 /* README */; };
 		DEC42B171D07028F004F4670 /* TeacherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC42B161D07028F004F4670 /* TeacherViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -279,7 +279,6 @@
 		DE32904B1CDB337B008B3730 /* classes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = classes.plist; sourceTree = "<group>"; };
 		DE4468A41CCF53CC0030FA9F /* DailyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyViewController.h; sourceTree = "<group>"; };
 		DE4468A51CCF53CC0030FA9F /* DailyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyViewController.m; sourceTree = "<group>"; };
-		DE4468A71CCF5A360030FA9F /* dailys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dailys.plist; sourceTree = "<group>"; };
 		DE77DDFC1D0EA621007307B5 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		DE77DDFD1D0EA621007307B5 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoFooter.m; sourceTree = "<group>"; };
 		DE77DDFE1D0EA621007307B5 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackFooter.h; sourceTree = "<group>"; };
@@ -320,6 +319,7 @@
 		DE77DE261D0EA621007307B5 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
 		DE92F0601CE449E5002D1974 /* StudentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentViewController.h; sourceTree = "<group>"; };
 		DE92F0611CE449E5002D1974 /* StudentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentViewController.m; sourceTree = "<group>"; };
+		DE9A16101D1A67B6004CC274 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		DEC42B151D07028F004F4670 /* TeacherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherViewController.h; sourceTree = "<group>"; };
 		DEC42B161D07028F004F4670 /* TeacherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -678,6 +678,7 @@
 		DE2BB7F51CCC981A001DB0E4 = {
 			isa = PBXGroup;
 			children = (
+				DE9A16101D1A67B6004CC274 /* README */,
 				DE2BB8001CCC981B001DB0E4 /* SHXT_EDU */,
 				DE2BB7FF1CCC981B001DB0E4 /* Products */,
 			);
@@ -723,7 +724,6 @@
 		DE4468A31CCF53A10030FA9F /* daily */ = {
 			isa = PBXGroup;
 			children = (
-				DE4468A71CCF5A360030FA9F /* dailys.plist */,
 				DE4468A41CCF53CC0030FA9F /* DailyViewController.h */,
 				DE4468A51CCF53CC0030FA9F /* DailyViewController.m */,
 				DE0313B81CDAD53F000C042D /* AddDailyViewController.h */,
@@ -903,12 +903,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE2BB8111CCC981B001DB0E4 /* LaunchScreen.storyboard in Resources */,
+				DE9A16111D1A67B6004CC274 /* README in Resources */,
 				DE2344EA1CCCAD9E006B57C8 /* SVProgressHUD.bundle in Resources */,
 				DE2344C01CCCAD9E006B57C8 /* CoreIV.xib in Resources */,
 				DE2BB80E1CCC981B001DB0E4 /* Assets.xcassets in Resources */,
 				DE2344E81CCCAD9E006B57C8 /* SVP.bundle in Resources */,
 				DE2344C11CCCAD9E006B57C8 /* CoreIV.bundle in Resources */,
-				DE4468A81CCF5A360030FA9F /* dailys.plist in Resources */,
 				DE77DE351D0EA621007307B5 /* MJRefresh.bundle in Resources */,
 				DE2344BE1CCCAD9E006B57C8 /* CoreStatusBtnMaskView.xib in Resources */,
 				DE2BB80C1CCC981B001DB0E4 /* Main.storyboard in Resources */,

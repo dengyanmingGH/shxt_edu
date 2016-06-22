@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "CONSTS.h"
+#import "CoreHttp.h"
 @interface AddDailyViewController : UIViewController<UIPickerViewDelegate,UIPickerViewDataSource,UITextFieldDelegate>
 
 @end

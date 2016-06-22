@@ -14,7 +14,6 @@
 /* 当前选中的textField */
 @property (nonatomic,retain) UITextField *textField;
 @property (strong, nonatomic) IBOutlet UIButton *loginBtn;
-@property (strong, nonatomic) NSMutableData *datas;
 @end
 
 @implementation ViewController
@@ -84,7 +83,7 @@
 }
 -(NSString *) applicationDocumentDirectory{
     NSString *documentDirectory = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
-    NSString *path = [documentDirectory stringByAppendingString:@"userInfo.plist"];
+    NSString *path = [documentDirectory stringByAppendingString:@"/userInfo.plist"];
     return path;
 }
 

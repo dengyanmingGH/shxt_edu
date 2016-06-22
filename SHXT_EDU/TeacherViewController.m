@@ -26,7 +26,7 @@
     [self getTeacherInfo];
 }
 
-//异步获取学生信息
+//异步获取教师信息
 -(void) getTeacherInfo{
     NSString *urlStr = [[NSString alloc]initWithFormat:URL_TEACHER_GETALL];
     [CoreHttp getUrl:urlStr params:nil success:^(NSString *obj) {
@@ -57,7 +57,7 @@
     [self.view addSubview:callWebview];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
-
+//监听视图滑动
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
     [self.searchBar resignFirstResponder];
@@ -85,6 +85,7 @@
     cell.detailTextLabel.text = [teacherInfo objectForKey:@"PHONE"];
     return cell;
 }
+//搜索条输入值变化时调用方法
 -(void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText{
     [self filterContentForSearchText:self.searchBar.text scope:self.searchBar.selectedScopeButtonIndex];
     [self.teacherTV reloadData];
